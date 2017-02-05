@@ -1,0 +1,47 @@
+{
+  "scripts": {
+    "lint": "eslint --ext .js lib",
+    "test": "npm run lint",
+    "precommit": "npm run lint",
+    "prepublish": "npm run lint"
+  },
+  "author": {
+    "name": "yuchonghua"
+  },
+  "keywords": [
+    "ddv-rowraw"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "yuchonghua",
+      "email": "yuchonghua@163.com"
+    }
+  ],
+  "name": "ddv-rowraw",
+  "bugs": {
+    "url": "https://github.com/ddvjs/ddv-rowraw/issues"
+  },
+  "homepage": "https://github.com/ddvjs/ddv-rowraw#readme",
+  "description": "ddv-rowraw",
+  "directories": {},
+  "dependencies": {},
+  "devDependencies": {
+    "babel-eslint": "^7.0.1",
+    "eslint": "^3.14.0",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.1"
+  },
+  "optionalDependencies": {},
+  "preferGlobal": false,
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ddvjs/ddv-rowraw.git"
+  },
+  "jshintConfig": {
+    "esversion": 6
+  },
+  "version": "0.0.1"
+}
