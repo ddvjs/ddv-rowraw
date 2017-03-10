@@ -24,7 +24,7 @@
     "url": "https://github.com/ddvjs/ddv-rowraw/issues"
   },
   "homepage": "https://github.com/ddvjs/ddv-rowraw#readme",
-  "description": "ddv-rowraw",
+  "description": "ddv-rowraw is a type of http protocol data stream encapsulation",
   "directories": {},
   "dependencies": {},
   "devDependencies": {
